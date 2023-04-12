@@ -10,7 +10,7 @@ sumar_asm:
 
     .ciclo:
         
-        add (%rdi,%rcx), %eax
+        add (%rdi,%rcx,4), %eax
         inc %rcx
         cmp %esi, %ecx
         jne .ciclo
