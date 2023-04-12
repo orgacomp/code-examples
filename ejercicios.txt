@@ -1,0 +1,15 @@
+// Compara dos strings en orden lexicográfico. Ver https://es.wikipedia.org/wiki/Orden_lexicografico.
+// Debe retornar: 
+// 0 si son iguales
+// 1 si a < b
+//-1 si a > b
+int32_t strCmp(char* a, char* b);
+
+// Retorna la cantidad de caracteres distintos de cero del \emph{string} pasado por parámetro. 
+uint32_t strLen(char* a);
+
+// Retorna el valor máximo del vector v y además devuelve la posición de dicho máxima por parámetro.
+// Asumir que el vector v no puede tener más de 255 posiciones.
+
+int16_t max(int16_t* v, uint8_t* pos);
+
